@@ -30,7 +30,7 @@ public class ChangeCalculator {
 		// Calculate how much money the user has and save it in a double variable 
 		double change = dime + nick + quart;
 		// Tell the user how much money they have
-		JOptionPane.showMessageDialog(null, "You have "+change+" cents");
+		JOptionPane.showMessageDialog(null, "You have " + change + " cents");
 
 	}
 }
