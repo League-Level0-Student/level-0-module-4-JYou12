@@ -22,19 +22,10 @@ public class StringMethods1 {
 			System.out.println(string.charAt(n));
 			n ++;
 }*/
-		for (int i=0; i<4; i++) {
-			
-			int n=0;
-			String l = "" + string.charAt(n);
-			
-			
-			if (l == "f") {
-				
-			System.out.println(n);
-				
-			}else {
-				n++; 
-			}
+        for (int i = 0 ; i<string.length(); i++)
+        if (string.charAt(i) == 'o')
+        System.out.println(i);
+		
 			
 			
 			
@@ -46,6 +37,7 @@ public class StringMethods1 {
 		//             for char 'b', then print "b is at index 1"
 		
 	}
-}
+
+
 
 
